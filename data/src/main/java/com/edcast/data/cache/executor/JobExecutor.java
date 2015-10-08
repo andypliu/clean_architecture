@@ -15,7 +15,7 @@
  */
 package com.edcast.data.cache.executor;
 
-import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
+import com.edcast.domain.executor.ThreadExecutor;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadFactory;

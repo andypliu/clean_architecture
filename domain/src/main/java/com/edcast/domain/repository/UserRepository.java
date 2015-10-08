@@ -13,15 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.domain.executor;
+package com.edcast.domain.repository;
 
-import rx.Scheduler;
+import com.edcast.domain.User;
+import java.util.List;
+import rx.Observable;
 
 /**
- * Thread abstraction created to change the execution context from any thread to any other thread.
- * Useful to encapsulate a UI Thread for example, since some job will be done in background, an
- * implementation of this interface will change context and update the UI.
+ * Interface that represents a Repository for getting {@link User} related data.
  */
-public interface PostExecutionThread {
-  Scheduler getScheduler();
+public interface UserRepository {
+  /**
+   * Get an {@link rx.Observable} which will emit a List of {@link User}.
+   */
+  Observable<List<User>> users();
+
+  /**
+   * Get an {@link rx.Observable} which will emit a {@link User}.
+   *
+   * @param userId The user id used to retrieve user data.
+   */
+  Observable<User> user(final int userId);
 }

@@ -17,7 +17,7 @@ package com.fernandocejas.android10.sample.test.presenter;
 
 import android.content.Context;
 import android.test.AndroidTestCase;
-import com.fernandocejas.android10.sample.domain.interactor.GetUserDetails;
+import com.edcast.domain.interactor.GetUserDetails;
 import com.fernandocejas.android10.sample.presentation.mapper.UserModelDataMapper;
 import com.fernandocejas.android10.sample.presentation.presenter.UserDetailsPresenter;
 import com.fernandocejas.android10.sample.presentation.view.UserDetailsView;

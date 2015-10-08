@@ -15,7 +15,7 @@
  */
 package com.fernandocejas.android10.sample.presentation.mapper;
 
-import com.fernandocejas.android10.sample.domain.User;
+import com.edcast.domain.User;
 import com.fernandocejas.android10.sample.presentation.internal.di.PerActivity;
 import com.fernandocejas.android10.sample.presentation.model.UserModel;
 import java.util.ArrayList;

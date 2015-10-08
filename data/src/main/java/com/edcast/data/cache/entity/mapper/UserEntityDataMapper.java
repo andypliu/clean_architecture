@@ -16,7 +16,7 @@
 package com.edcast.data.cache.entity.mapper;
 
 import com.edcast.data.cache.entity.UserEntity;
-import com.fernandocejas.android10.sample.domain.User;
+import com.edcast.domain.User;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;

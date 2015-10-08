@@ -20,7 +20,7 @@ import com.edcast.data.cache.entity.UserEntity;
 import com.edcast.data.cache.entity.mapper.UserEntityDataMapper;
 import com.edcast.data.cache.repository.datasource.UserDataStore;
 import com.edcast.data.cache.repository.datasource.UserDataStoreFactory;
-import com.fernandocejas.android10.sample.domain.User;
+import com.edcast.domain.User;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Before;

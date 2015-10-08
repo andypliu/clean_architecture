@@ -16,11 +16,11 @@
 package com.fernandocejas.android10.sample.presentation.presenter;
 
 import android.support.annotation.NonNull;
-import com.fernandocejas.android10.sample.domain.User;
-import com.fernandocejas.android10.sample.domain.exception.DefaultErrorBundle;
-import com.fernandocejas.android10.sample.domain.exception.ErrorBundle;
-import com.fernandocejas.android10.sample.domain.interactor.DefaultSubscriber;
-import com.fernandocejas.android10.sample.domain.interactor.UseCase;
+import com.edcast.domain.User;
+import com.edcast.domain.exception.DefaultErrorBundle;
+import com.edcast.domain.exception.ErrorBundle;
+import com.edcast.domain.interactor.DefaultSubscriber;
+import com.edcast.domain.interactor.UseCase;
 import com.fernandocejas.android10.sample.presentation.exception.ErrorMessageFactory;
 import com.fernandocejas.android10.sample.presentation.internal.di.PerActivity;
 import com.fernandocejas.android10.sample.presentation.mapper.UserModelDataMapper;

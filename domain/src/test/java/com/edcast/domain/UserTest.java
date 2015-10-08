@@ -13,31 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.domain.exception;
+package com.edcast.domain;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 
-import static org.mockito.Mockito.verify;
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
 
-public class DefaultErrorBundleTest {
-  private DefaultErrorBundle defaultErrorBundle;
+public class UserTest {
 
-  @Mock
-  private Exception mockException;
+  private static final int FAKE_USER_ID = 8;
+
+  private com.edcast.domain.User user;
 
   @Before
   public void setUp() {
-    MockitoAnnotations.initMocks(this);
-    defaultErrorBundle = new DefaultErrorBundle(mockException);
+    user = new com.edcast.domain.User(FAKE_USER_ID);
   }
 
   @Test
-  public void testGetErrorMessageInteraction() {
-    defaultErrorBundle.getErrorMessage();
+  public void testUserConstructorHappyCase() {
+    int userId = user.getUserId();
 
-    verify(mockException).getMessage();
+    assertThat(userId, is(FAKE_USER_ID));
   }
 }

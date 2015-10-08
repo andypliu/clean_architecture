@@ -15,12 +15,12 @@
  */
 package com.fernandocejas.android10.sample.presentation.internal.di.modules;
 
-import com.fernandocejas.android10.sample.domain.executor.PostExecutionThread;
-import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
-import com.fernandocejas.android10.sample.domain.interactor.GetUserDetails;
-import com.fernandocejas.android10.sample.domain.interactor.GetUserList;
-import com.fernandocejas.android10.sample.domain.interactor.UseCase;
-import com.fernandocejas.android10.sample.domain.repository.UserRepository;
+import com.edcast.domain.executor.PostExecutionThread;
+import com.edcast.domain.executor.ThreadExecutor;
+import com.edcast.domain.interactor.GetUserDetails;
+import com.edcast.domain.interactor.GetUserList;
+import com.edcast.domain.interactor.UseCase;
+import com.edcast.domain.repository.UserRepository;
 import com.fernandocejas.android10.sample.presentation.internal.di.PerActivity;
 import dagger.Module;
 import dagger.Provides;

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.domain.interactor;
+package com.edcast.domain.interactor;
 
-import com.fernandocejas.android10.sample.domain.User;
-import com.fernandocejas.android10.sample.domain.executor.PostExecutionThread;
-import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
-import com.fernandocejas.android10.sample.domain.repository.UserRepository;
+import com.edcast.domain.User;
+import com.edcast.domain.executor.PostExecutionThread;
+import com.edcast.domain.executor.ThreadExecutor;
+import com.edcast.domain.repository.UserRepository;
 import javax.inject.Inject;
 import rx.Observable;
 

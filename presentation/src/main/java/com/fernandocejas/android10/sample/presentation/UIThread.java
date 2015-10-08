@@ -15,7 +15,7 @@
  */
 package com.fernandocejas.android10.sample.presentation;
 
-import com.fernandocejas.android10.sample.domain.executor.PostExecutionThread;
+import com.edcast.domain.executor.PostExecutionThread;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import rx.Scheduler;

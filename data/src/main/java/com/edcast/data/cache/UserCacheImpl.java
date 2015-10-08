@@ -19,7 +19,7 @@ import android.content.Context;
 import com.edcast.data.cache.serializer.JsonSerializer;
 import com.edcast.data.cache.entity.UserEntity;
 import com.edcast.data.cache.exception.UserNotFoundException;
-import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
+import com.edcast.domain.executor.ThreadExecutor;
 import java.io.File;
 import javax.inject.Inject;
 import javax.inject.Singleton;

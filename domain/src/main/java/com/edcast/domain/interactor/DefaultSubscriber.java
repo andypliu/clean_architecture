@@ -13,28 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.domain.exception;
+package com.edcast.domain.interactor;
 
 /**
- *  Wrapper around Exceptions used to manage default errors.
+ * Default subscriber base class to be used whenever you want default error handling.
  */
-public class DefaultErrorBundle implements ErrorBundle {
-
-  private static final String DEFAULT_ERROR_MSG = "Unknown error";
-
-  private final Exception exception;
-
-  public DefaultErrorBundle(Exception exception) {
-    this.exception = exception;
+public class DefaultSubscriber<T> extends rx.Subscriber<T> {
+  @Override public void onCompleted() {
+    // no-op by default.
   }
 
-  @Override
-  public Exception getException() {
-    return exception;
+  @Override public void onError(Throwable e) {
+    // no-op by default.
   }
 
-  @Override
-  public String getErrorMessage() {
-    return (exception != null) ? this.exception.getMessage() : DEFAULT_ERROR_MSG;
+  @Override public void onNext(T t) {
+    // no-op by default.
   }
 }
