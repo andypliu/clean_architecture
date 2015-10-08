@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.data.cache;
+package com.edcast.data.cache;
 
 import android.content.Context;
-import com.fernandocejas.android10.sample.data.cache.serializer.JsonSerializer;
-import com.fernandocejas.android10.sample.data.entity.UserEntity;
-import com.fernandocejas.android10.sample.data.exception.UserNotFoundException;
+import com.edcast.data.cache.serializer.JsonSerializer;
+import com.edcast.data.cache.entity.UserEntity;
+import com.edcast.data.cache.exception.UserNotFoundException;
 import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
 import java.io.File;
 import javax.inject.Inject;

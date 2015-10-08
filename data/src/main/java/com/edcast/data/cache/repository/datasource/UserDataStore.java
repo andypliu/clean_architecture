@@ -13,26 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.data.exception;
+package com.edcast.data.cache.repository.datasource;
+
+import com.edcast.data.cache.entity.UserEntity;
+import java.util.List;
+import rx.Observable;
 
 /**
- * Exception throw by the application when a there is a network connection exception.
+ * Interface that represents a data store from where data is retrieved.
  */
-public class NetworkConnectionException extends Exception {
+public interface UserDataStore {
+  /**
+   * Get an {@link rx.Observable} which will emit a List of {@link UserEntity}.
+   */
+  Observable<List<UserEntity>> userEntityList();
 
-  public NetworkConnectionException() {
-    super();
-  }
-
-  public NetworkConnectionException(final String message) {
-    super(message);
-  }
-
-  public NetworkConnectionException(final String message, final Throwable cause) {
-    super(message, cause);
-  }
-
-  public NetworkConnectionException(final Throwable cause) {
-    super(cause);
-  }
+  /**
+   * Get an {@link rx.Observable} which will emit a {@link UserEntity} by its id.
+   *
+   * @param userId The id to retrieve user data.
+   */
+  Observable<UserEntity> userEntityDetails(final int userId);
 }

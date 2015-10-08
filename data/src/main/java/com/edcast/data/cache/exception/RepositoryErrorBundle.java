@@ -15,31 +15,30 @@
  */
 package com.edcast.data.cache.exception;
 
-import com.fernandocejas.android10.sample.data.ApplicationTestCase;
-import org.junit.Before;
-import org.junit.Test;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
+import com.fernandocejas.android10.sample.domain.exception.ErrorBundle;
 
-import static org.mockito.Mockito.verify;
+/**
+ * Wrapper around Exceptions used to manage errors in the repository.
+ */
+public class RepositoryErrorBundle implements ErrorBundle {
 
-public class RepositoryErrorBundleTest extends ApplicationTestCase {
+  private final Exception exception;
 
-  private RepositoryErrorBundle repositoryErrorBundle;
-
-  @Mock
-  private Exception mockException;
-
-  @Before
-  public void setUp() {
-    MockitoAnnotations.initMocks(this);
-    repositoryErrorBundle = new RepositoryErrorBundle(mockException);
+  public RepositoryErrorBundle(Exception exception) {
+    this.exception = exception;
   }
 
-  @Test
-  public void testGetErrorMessageInteraction() {
-    repositoryErrorBundle.getErrorMessage();
+  @Override
+  public Exception getException() {
+    return exception;
+  }
 
-    verify(mockException).getMessage();
+  @Override
+  public String getErrorMessage() {
+    String message = "";
+    if (this.exception != null) {
+      this.exception.getMessage();
+    }
+    return message;
   }
 }

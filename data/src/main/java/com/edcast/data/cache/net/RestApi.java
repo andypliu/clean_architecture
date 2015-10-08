@@ -13,25 +13,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.data.repository.datasource;
+package com.edcast.data.cache.net;
 
-import com.fernandocejas.android10.sample.data.entity.UserEntity;
+import com.edcast.data.cache.entity.UserEntity;
 import java.util.List;
 import rx.Observable;
 
 /**
- * Interface that represents a data store from where data is retrieved.
+ * RestApi for retrieving data from the network.
  */
-public interface UserDataStore {
+public interface RestApi {
+  String API_BASE_URL = "http://www.android10.org/myapi/";
+
+  /** Api url for getting all users */
+  String API_URL_GET_USER_LIST = API_BASE_URL + "users.json";
+  /** Api url for getting a user profile: Remember to concatenate id + 'json' */
+  String API_URL_GET_USER_DETAILS = API_BASE_URL + "user_";
+
   /**
-   * Get an {@link rx.Observable} which will emit a List of {@link UserEntity}.
+   * Retrieves an {@link rx.Observable} which will emit a List of {@link UserEntity}.
    */
   Observable<List<UserEntity>> userEntityList();
 
   /**
-   * Get an {@link rx.Observable} which will emit a {@link UserEntity} by its id.
+   * Retrieves an {@link rx.Observable} which will emit a {@link UserEntity}.
    *
-   * @param userId The id to retrieve user data.
+   * @param userId The user id used to get user data.
    */
-  Observable<UserEntity> userEntityDetails(final int userId);
+  Observable<UserEntity> userEntityById(final int userId);
 }

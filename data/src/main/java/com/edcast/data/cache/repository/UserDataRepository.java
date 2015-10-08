@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.data.repository;
+package com.edcast.data.cache.repository;
 
-import com.fernandocejas.android10.sample.data.entity.mapper.UserEntityDataMapper;
-import com.fernandocejas.android10.sample.data.repository.datasource.UserDataStore;
-import com.fernandocejas.android10.sample.data.repository.datasource.UserDataStoreFactory;
+import com.edcast.data.cache.entity.mapper.UserEntityDataMapper;
+import com.edcast.data.cache.repository.datasource.UserDataStore;
+import com.edcast.data.cache.repository.datasource.UserDataStoreFactory;
 import com.fernandocejas.android10.sample.domain.User;
 import com.fernandocejas.android10.sample.domain.repository.UserRepository;
 import java.util.List;

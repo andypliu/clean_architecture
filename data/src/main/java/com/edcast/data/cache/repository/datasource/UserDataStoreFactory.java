@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.data.repository.datasource;
+package com.edcast.data.cache.repository.datasource;
 
 import android.content.Context;
-import com.fernandocejas.android10.sample.data.cache.UserCache;
-import com.fernandocejas.android10.sample.data.entity.mapper.UserEntityJsonMapper;
-import com.fernandocejas.android10.sample.data.net.RestApi;
-import com.fernandocejas.android10.sample.data.net.RestApiImpl;
+import com.edcast.data.cache.UserCache;
+import com.edcast.data.cache.entity.mapper.UserEntityJsonMapper;
+import com.edcast.data.cache.net.RestApi;
+import com.edcast.data.cache.net.RestApiImpl;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 

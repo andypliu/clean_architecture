@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.data.repository.datasource;
+package com.edcast.data.cache.repository.datasource;
 
-import com.fernandocejas.android10.sample.data.cache.UserCache;
-import com.fernandocejas.android10.sample.data.entity.UserEntity;
-import com.fernandocejas.android10.sample.data.net.RestApi;
+import com.edcast.data.cache.UserCache;
+import com.edcast.data.cache.entity.UserEntity;
+import com.edcast.data.cache.net.RestApi;
 import java.util.List;
 import rx.Observable;
 import rx.functions.Action1;
