@@ -4,7 +4,7 @@ import android.app.Fragment;
 import android.content.Intent;
 import android.test.ActivityInstrumentationTestCase2;
 import com.edcast.presentation.R;
-import com.edcast.presentation.view.activity.UserDetailsActivity;
+import com.edcast.presentation.samplefeature.view.activity.UserDetailsActivity;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;

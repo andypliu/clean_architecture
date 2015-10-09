@@ -1,9 +1,9 @@
 package com.edcast.presentation;
 
 import android.app.Application;
-import com.edcast.presentation.di.components.ApplicationComponent;
-import com.edcast.presentation.di.components.DaggerApplicationComponent;
-import com.edcast.presentation.di.modules.ApplicationModule;
+import com.edcast.presentation.samplefeature.di.components.ApplicationComponent;
+import com.edcast.presentation.samplefeature.di.components.DaggerApplicationComponent;
+import com.edcast.presentation.samplefeature.di.modules.ApplicationModule;
 
 /**
  * Android Main Application

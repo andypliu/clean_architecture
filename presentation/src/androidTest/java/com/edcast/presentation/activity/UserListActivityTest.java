@@ -4,7 +4,7 @@ import android.app.Fragment;
 import android.content.Intent;
 import android.test.ActivityInstrumentationTestCase2;
 import com.edcast.presentation.R;
-import com.edcast.presentation.view.activity.UserListActivity;
+import com.edcast.presentation.samplefeature.view.activity.UserListActivity;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
