@@ -1,4 +1,4 @@
-package com.edcast.domain.interactor;
+package com.edcast.domain.samplefeature.interactor;
 
 import com.edcast.domain.executor.PostExecutionThread;
 import com.edcast.domain.executor.ThreadExecutor;

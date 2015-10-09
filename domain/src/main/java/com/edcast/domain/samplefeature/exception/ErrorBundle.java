@@ -1,4 +1,4 @@
-package com.edcast.domain.exception;
+package com.edcast.domain.samplefeature.exception;
 
 /**
  * Interface to represent a wrapper around an {@link java.lang.Exception} to manage errors.

@@ -1,4 +1,4 @@
-package com.edcast.domain.interactor;
+package com.edcast.domain.samplefeature.interactor;
 
 /**
  * Default subscriber base class to be used whenever you want default error handling.

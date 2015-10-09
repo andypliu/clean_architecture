@@ -2,10 +2,10 @@ package com.edcast.presentation.samplefeature.presenter;
 
 import android.support.annotation.NonNull;
 import com.edcast.domain.User;
-import com.edcast.domain.exception.DefaultErrorBundle;
-import com.edcast.domain.exception.ErrorBundle;
-import com.edcast.domain.interactor.DefaultSubscriber;
-import com.edcast.domain.interactor.UseCase;
+import com.edcast.domain.samplefeature.exception.DefaultErrorBundle;
+import com.edcast.domain.samplefeature.exception.ErrorBundle;
+import com.edcast.domain.samplefeature.interactor.DefaultSubscriber;
+import com.edcast.domain.samplefeature.interactor.UseCase;
 import com.edcast.presentation.samplefeature.exception.ErrorMessageFactory;
 import com.edcast.presentation.samplefeature.di.PerActivity;
 import com.edcast.presentation.samplefeature.mapper.UserModelDataMapper;

@@ -4,7 +4,7 @@ import com.edcast.data.cache.entity.mapper.UserEntityDataMapper;
 import com.edcast.data.cache.repository.datasource.UserDataStore;
 import com.edcast.data.cache.repository.datasource.UserDataStoreFactory;
 import com.edcast.domain.User;
-import com.edcast.domain.repository.UserRepository;
+import com.edcast.domain.samplefeature.repository.UserRepository;
 import java.util.List;
 import javax.inject.Inject;
 import javax.inject.Singleton;

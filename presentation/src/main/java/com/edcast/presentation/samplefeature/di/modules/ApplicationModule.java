@@ -7,7 +7,7 @@ import com.edcast.data.cache.executor.JobExecutor;
 import com.edcast.data.cache.repository.UserDataRepository;
 import com.edcast.domain.executor.PostExecutionThread;
 import com.edcast.domain.executor.ThreadExecutor;
-import com.edcast.domain.repository.UserRepository;
+import com.edcast.domain.samplefeature.repository.UserRepository;
 import com.edcast.presentation.AndroidApplication;
 import com.edcast.presentation.UIThread;
 import com.edcast.presentation.samplefeature.navigation.Navigator;

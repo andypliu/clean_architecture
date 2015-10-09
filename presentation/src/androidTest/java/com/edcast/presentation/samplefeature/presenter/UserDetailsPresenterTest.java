@@ -2,7 +2,7 @@ package com.edcast.presentation.samplefeature.presenter;
 
 import android.content.Context;
 import android.test.AndroidTestCase;
-import com.edcast.domain.interactor.GetUserDetails;
+import com.edcast.domain.samplefeature.interactor.GetUserDetails;
 import com.edcast.presentation.samplefeature.mapper.UserModelDataMapper;
 import com.edcast.presentation.samplefeature.view.UserDetailsView;
 import org.mockito.Mock;

@@ -3,7 +3,7 @@ package com.edcast.presentation.samplefeature.di.components;
 import android.content.Context;
 import com.edcast.domain.executor.PostExecutionThread;
 import com.edcast.domain.executor.ThreadExecutor;
-import com.edcast.domain.repository.UserRepository;
+import com.edcast.domain.samplefeature.repository.UserRepository;
 import com.edcast.presentation.samplefeature.di.modules.ApplicationModule;
 import com.edcast.presentation.samplefeature.view.activity.BaseActivity;
 import dagger.Component;

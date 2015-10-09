@@ -1,9 +1,9 @@
-package com.edcast.domain.interactor;
+package com.edcast.domain.samplefeature.interactor;
 
 import com.edcast.domain.User;
 import com.edcast.domain.executor.PostExecutionThread;
 import com.edcast.domain.executor.ThreadExecutor;
-import com.edcast.domain.repository.UserRepository;
+import com.edcast.domain.samplefeature.repository.UserRepository;
 import javax.inject.Inject;
 import rx.Observable;
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.edcast.domain.repository;
+package com.edcast.domain.samplefeature.repository;
 
 import com.edcast.domain.User;
 import java.util.List;

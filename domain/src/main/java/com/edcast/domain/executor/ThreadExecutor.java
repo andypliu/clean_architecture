@@ -1,6 +1,6 @@
 package com.edcast.domain.executor;
 
-import com.edcast.domain.interactor.UseCase;
+import com.edcast.domain.samplefeature.interactor.UseCase;
 
 import java.util.concurrent.Executor;
 

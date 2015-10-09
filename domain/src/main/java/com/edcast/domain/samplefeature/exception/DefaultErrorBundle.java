@@ -1,4 +1,4 @@
-package com.edcast.domain.exception;
+package com.edcast.domain.samplefeature.exception;
 
 /**
  *  Wrapper around Exceptions used to manage default errors.

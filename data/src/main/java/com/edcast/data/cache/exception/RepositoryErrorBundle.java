@@ -1,6 +1,6 @@
 package com.edcast.data.cache.exception;
 
-import com.edcast.domain.exception.ErrorBundle;
+import com.edcast.domain.samplefeature.exception.ErrorBundle;
 
 /**
  * Wrapper around Exceptions used to manage errors in the repository.

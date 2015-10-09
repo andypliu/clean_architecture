@@ -2,10 +2,10 @@ package com.edcast.presentation.samplefeature.di.modules;
 
 import com.edcast.domain.executor.PostExecutionThread;
 import com.edcast.domain.executor.ThreadExecutor;
-import com.edcast.domain.interactor.GetUserDetails;
-import com.edcast.domain.interactor.GetUserList;
-import com.edcast.domain.interactor.UseCase;
-import com.edcast.domain.repository.UserRepository;
+import com.edcast.domain.samplefeature.interactor.GetUserDetails;
+import com.edcast.domain.samplefeature.interactor.GetUserList;
+import com.edcast.domain.samplefeature.interactor.UseCase;
+import com.edcast.domain.samplefeature.repository.UserRepository;
 import com.edcast.presentation.samplefeature.di.PerActivity;
 import dagger.Module;
 import dagger.Provides;
