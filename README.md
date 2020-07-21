@@ -1,2 +1,2 @@
-# edcast-android2
+# android
 New android repo
